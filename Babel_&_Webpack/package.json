@@ -1,0 +1,26 @@
+{
+  "name": "BabelWebpackSetUp",
+  "version": "1",
+  "babel": {
+    "presets": [
+      "es2015",
+      "es2016",
+      "es2017",
+      "react"
+    ]
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
